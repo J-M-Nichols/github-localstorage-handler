@@ -23,8 +23,7 @@ export default class GitHubStorageHandler {
      * @param {*} value 
      */
     setItem = value => {
-        localStorage.setItem(this.path, value)   
-        localStorage.get
+        localStorage.setItem(this.path, value)
     }
 
     /**
