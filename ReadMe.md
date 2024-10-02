@@ -1,6 +1,6 @@
 # GitHub LocalStorage Handler
 
-[![npm version](https://badge.fury.io/js/github-localstorage-handler.svg)](https://www.npmjs.com/package/github-localstorage-handler)
+[![npm version](https://badge.fury.io/js/github-localstorage-handler.svg)](https://badge.fury.io/js/github-localstorage-handler)
 
 GitHub Storage Handler is a utility for managing `localStorage` in React applications hosted on GitHub Pages. It provides a simple interface to handle storage operations with path-based organization, making it ideal for use in Redux slices and React context.
 
