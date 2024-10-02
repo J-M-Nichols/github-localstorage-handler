@@ -24,6 +24,7 @@ export default class GitHubStorageHandler {
      */
     setItem = value => {
         localStorage.setItem(this.path, value)   
+        localStorage.get
     }
 
     /**

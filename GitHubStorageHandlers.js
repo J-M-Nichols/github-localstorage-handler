@@ -28,18 +28,9 @@ export default class GitHubStorageHandlers {
      * @returns GitHubStorageHandler
      */
     getHandler = path => {
-        let handler
-
-        this.pathObjects.every(pathObject=>{
-            if(path===pathObject.path) {
-                handler = pathObject.handler
-                return false
-            }
-            return true
-        })
+        let handler = this.pathObjects.find(pathObject => path === pathObject.path)?.handler;
 
         if(handler) {
-            console.log(this.pathObjects)
             return handler
         }
 
@@ -50,7 +41,6 @@ export default class GitHubStorageHandlers {
             path
         })
 
-        console.log(this.pathObjects)
         return handler
     }
 
