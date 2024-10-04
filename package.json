@@ -1,6 +1,6 @@
 {
   "name": "github-localstorage-handler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handles the use of localStorage for projects published to github pages.",
   "main": "index.js",
   "keywords": [
